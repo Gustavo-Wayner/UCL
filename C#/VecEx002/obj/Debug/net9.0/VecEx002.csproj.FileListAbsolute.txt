@@ -1,0 +1,15 @@
+D:\git\UCL\C#\VecEx002\bin\Debug\net9.0\VecEx002.exe
+D:\git\UCL\C#\VecEx002\bin\Debug\net9.0\VecEx002.deps.json
+D:\git\UCL\C#\VecEx002\bin\Debug\net9.0\VecEx002.runtimeconfig.json
+D:\git\UCL\C#\VecEx002\bin\Debug\net9.0\VecEx002.dll
+D:\git\UCL\C#\VecEx002\bin\Debug\net9.0\VecEx002.pdb
+D:\git\UCL\C#\VecEx002\obj\Debug\net9.0\VecEx002.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\UCL\C#\VecEx002\obj\Debug\net9.0\VecEx002.AssemblyInfoInputs.cache
+D:\git\UCL\C#\VecEx002\obj\Debug\net9.0\VecEx002.AssemblyInfo.cs
+D:\git\UCL\C#\VecEx002\obj\Debug\net9.0\VecEx002.csproj.CoreCompileInputs.cache
+D:\git\UCL\C#\VecEx002\obj\Debug\net9.0\VecEx002.sourcelink.json
+D:\git\UCL\C#\VecEx002\obj\Debug\net9.0\VecEx002.dll
+D:\git\UCL\C#\VecEx002\obj\Debug\net9.0\refint\VecEx002.dll
+D:\git\UCL\C#\VecEx002\obj\Debug\net9.0\VecEx002.pdb
+D:\git\UCL\C#\VecEx002\obj\Debug\net9.0\VecEx002.genruntimeconfig.cache
+D:\git\UCL\C#\VecEx002\obj\Debug\net9.0\ref\VecEx002.dll
