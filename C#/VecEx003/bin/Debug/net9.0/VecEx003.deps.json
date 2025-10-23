@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v9.0": {
-      "Test/1.0.0": {
+      "VecEx003/1.0.0": {
         "runtime": {
-          "Test.dll": {}
+          "VecEx003.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Test/1.0.0": {
+    "VecEx003/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
