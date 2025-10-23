@@ -1,0 +1,15 @@
+C:\Users\UCL\Desktop\Ucl\C#\UCL\C#\VecEx001\VecEx001\obj\Debug\net9.0\VecEx001.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UCL\Desktop\Ucl\C#\UCL\C#\VecEx001\VecEx001\obj\Debug\net9.0\VecEx001.AssemblyInfoInputs.cache
+C:\Users\UCL\Desktop\Ucl\C#\UCL\C#\VecEx001\VecEx001\obj\Debug\net9.0\VecEx001.AssemblyInfo.cs
+C:\Users\UCL\Desktop\Ucl\C#\UCL\C#\VecEx001\VecEx001\obj\Debug\net9.0\VecEx001.csproj.CoreCompileInputs.cache
+C:\Users\UCL\Desktop\Ucl\C#\UCL\C#\VecEx001\VecEx001\obj\Debug\net9.0\VecEx001.sourcelink.json
+C:\Users\UCL\Desktop\Ucl\C#\UCL\C#\VecEx001\VecEx001\bin\Debug\net9.0\VecEx001.exe
+C:\Users\UCL\Desktop\Ucl\C#\UCL\C#\VecEx001\VecEx001\bin\Debug\net9.0\VecEx001.deps.json
+C:\Users\UCL\Desktop\Ucl\C#\UCL\C#\VecEx001\VecEx001\bin\Debug\net9.0\VecEx001.runtimeconfig.json
+C:\Users\UCL\Desktop\Ucl\C#\UCL\C#\VecEx001\VecEx001\bin\Debug\net9.0\VecEx001.dll
+C:\Users\UCL\Desktop\Ucl\C#\UCL\C#\VecEx001\VecEx001\bin\Debug\net9.0\VecEx001.pdb
+C:\Users\UCL\Desktop\Ucl\C#\UCL\C#\VecEx001\VecEx001\obj\Debug\net9.0\VecEx001.dll
+C:\Users\UCL\Desktop\Ucl\C#\UCL\C#\VecEx001\VecEx001\obj\Debug\net9.0\refint\VecEx001.dll
+C:\Users\UCL\Desktop\Ucl\C#\UCL\C#\VecEx001\VecEx001\obj\Debug\net9.0\VecEx001.pdb
+C:\Users\UCL\Desktop\Ucl\C#\UCL\C#\VecEx001\VecEx001\obj\Debug\net9.0\VecEx001.genruntimeconfig.cache
+C:\Users\UCL\Desktop\Ucl\C#\UCL\C#\VecEx001\VecEx001\obj\Debug\net9.0\ref\VecEx001.dll
