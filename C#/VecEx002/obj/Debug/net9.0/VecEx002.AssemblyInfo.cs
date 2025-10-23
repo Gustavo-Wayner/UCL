@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("VecEx001")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("VecEx002")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92b43d6148812d799adbf9e7e1c07b2fef5aa9a8")]
-[assembly: System.Reflection.AssemblyProductAttribute("VecEx001")]
-[assembly: System.Reflection.AssemblyTitleAttribute("VecEx001")]
+[assembly: System.Reflection.AssemblyProductAttribute("VecEx002")]
+[assembly: System.Reflection.AssemblyTitleAttribute("VecEx002")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
