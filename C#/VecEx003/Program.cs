@@ -25,39 +25,58 @@ public static class Program
     }
     public static void Main()
     {
-        double[,] lapTimes = new double[ParseInt("Quanta voltas teve a corrida? "), ParseInt("Quantos carros participaram da corrida? ")];
+        Car[] cars = new Car[ParseInt("Quantos carros participaram da corrida? ")];
+        int lapCount = ParseInt("Quanta voltas teve a corrida? ");
+
+        for(int car = 0; car < cars.Length; car++)
+        {
+            cars[car] = new Car(new double[lapCount]);
+        }
         //lap, car
-        int[] bestTime = { 0, 0 };
-        double[] lapAvgs = new double[lapTimes.GetLength(0)];
-        for (int LAP = 0; LAP < lapTimes.GetLength(0); LAP++)
+        Car bestTime = cars[0];
+        double[] lapAvgs = new double[lapCount];
+        for (int LAP = 0; LAP < lapCount; LAP++)
         {
             double avg = 0;
-            for (int CAR = 0; CAR < lapTimes.GetLength(1); CAR++)
+            for (int CAR = 0; CAR < cars.Length; CAR++)
             {
-                double time = 0; 
+                double time;
                 while (true)
                 {
                     Console.Write($"Em quanto tempo (segundos) o {CAR + 1}* carro completou a {LAP + 1}* volta? ");
                     if (double.TryParse(Console.ReadLine(), out time)) break;
                     Console.WriteLine("Entrada invalida");
                 }
-                lapTimes[LAP, CAR] = time;
-                if (time < lapTimes[bestTime[0], bestTime[1]])
-                {
-                    bestTime[0] = LAP;
-                    bestTime[1] = CAR;
-                }
+                cars[CAR].lapTimes[LAP] = time;
+                cars[CAR].ID = (uint)CAR;
                 avg += time;
             }
-            avg /= lapTimes.GetLength(1);
+            avg /= cars.Length;
             lapAvgs[LAP] = avg;
         }
 
-        Console.WriteLine($"Na volta {bestTime[0] + 1}, o {bestTime[1] + 1}* carro correu o melhor tempo de {lapTimes[bestTime[0], bestTime[1]]}s");
-        
+        foreach(Car car in cars)
+        {
+            if (car.lapTimes.Min() < bestTime.lapTimes.Min()) bestTime = car;
+        }
+
+        Console.WriteLine($"Na volta {Array.IndexOf(bestTime.lapTimes, bestTime.lapTimes.Min()) + 1}, o {bestTime.ID + 1}* carro correu o melhor tempo de {bestTime.lapTimes.Min()}s");
+
+        Console.WriteLine("------------------------------------------------\nMedias:");
         for (int LAP = 0; LAP < lapAvgs.Length; LAP++)
         {
-            Console.WriteLine($"Volta {LAP+1}: {lapAvgs[LAP]:F2}s");
+            Console.WriteLine($"Volta {LAP + 1}: {lapAvgs[LAP]:F2}s");
         }
+    }
+}
+
+public class Car
+{
+    public uint ID;
+    public double[] lapTimes;
+    public Car(double[] time, uint id = 0)
+    {
+        ID = id;
+        lapTimes = time;
     }
 }
