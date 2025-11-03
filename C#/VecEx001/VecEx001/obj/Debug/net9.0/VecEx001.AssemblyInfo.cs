@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VecEx001")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+266b61926626d06daaffc451cda52885fc8d867a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8525dfa3bf15d9982e53f79e10caae08808886a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("VecEx001")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VecEx001")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
