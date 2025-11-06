@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("VecEven")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Inheritance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46cce40ccaa265dd9169abdb954e8bc59ce08d9d")]
-[assembly: System.Reflection.AssemblyProductAttribute("VecEven")]
-[assembly: System.Reflection.AssemblyTitleAttribute("VecEven")]
+[assembly: System.Reflection.AssemblyProductAttribute("Inheritance")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Inheritance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
