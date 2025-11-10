@@ -8,32 +8,24 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\UCL\\.nuget\\packages\\": {},
-    "C:\\ucl\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\gusga\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\UCL\\Desktop\\gusga\\UCL\\C#\\VecEx001\\VecEx001\\VecEx001.csproj",
+      "projectUniqueName": "D:\\repos\\UCL\\C#\\VecEx001\\VecEx001\\VecEx001.csproj",
       "projectName": "VecEx001",
-      "projectPath": "C:\\Users\\UCL\\Desktop\\gusga\\UCL\\C#\\VecEx001\\VecEx001\\VecEx001.csproj",
-      "packagesPath": "C:\\Users\\UCL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\UCL\\Desktop\\gusga\\UCL\\C#\\VecEx001\\VecEx001\\obj\\",
+      "projectPath": "D:\\repos\\UCL\\C#\\VecEx001\\VecEx001\\VecEx001.csproj",
+      "packagesPath": "C:\\Users\\gusga\\.nuget\\packages\\",
+      "outputPath": "D:\\repos\\UCL\\C#\\VecEx001\\VecEx001\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\ucl\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\UCL\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\gusga\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -73,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

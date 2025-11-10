@@ -123,7 +123,6 @@ namespace InheritanceEx
 
             while (!over)
             {
-                string cardoggo;
                 Console.Write("Digite 0 para cadastrar um cachorro, 1 para um gato e 2 para sair: ");
                 string action = Console.ReadLine()!;
 
@@ -135,7 +134,7 @@ namespace InheritanceEx
                         break;
                     case "1":
                         animals.Add(new Cat());
-                        dogCount++;
+                        catCount++;
                         break;
                     case "2":
                         over = true;
@@ -150,7 +149,7 @@ namespace InheritanceEx
 
             if (dogCount > 0)
             {
-                string plural = catCount > 1 ? "es" : "o";
+                string plural = dogCount > 1 ? "es" : "o";
                 Console.WriteLine($"Cã{plural}: ");
                 foreach (Animal doggo in animals)
                 {
